@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="kode unit"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/kodeUnit"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="nama unit"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaUnit"
+        android:layout_weight="0.03"
+        android:textSize="25sp"
+        android:layout_marginStart="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/kodeUnit" />
+</RelativeLayout>
